@@ -1,0 +1,129 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+/* Header Styling */
+header {
+    background-color: #006400; /* Dark Green */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #98FB98 0%, #3CB371 100%); /* Light Green to Medium Sea Green */
+    animation: slideIn 1s ease-in-out;
+}
+
+h2 {
+    color: #2E8B57; /* Sea Green */
+}
+
+p, ul {
+    color: #333; /* Sea Green */
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #006400; /* Dark Green */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+	color:white;
+    margin: 0;
+}
+
+footer a {
+    color: white; /* Pale Green */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #33691E;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #a5d6a7; /* Lighter green for table headers */
+        }
